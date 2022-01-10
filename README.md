@@ -2,8 +2,8 @@
 Venue Look is an application, where user can find perfect venues and get quotes from their favorite venue providers. 
 People usually visit physically to such places/venues to talk to the business owners and get quotes from them. 
 This application tries to overcome this issue by giving a platform to the venue owners to list their venues for the users 
-with basic description of the venue hereby, allowing the user to make a perfect choice. In case of doubts or queries, the 
-users can reach out to the venue owners by call or by sending them an enquiry message through this platform.
+with basic description of the venue thereby, allowing the user to make a perfect choice. In case of doubts or queries, the 
+users can reach out to the venue owners by call or by sending them an enquiry mail through this platform.
 
 ### Technology Used
 #### Backend
@@ -32,6 +32,15 @@ Add your MongoDb URL in  ```application.properties``` of ***event-kt*** and ***a
 Add your Email Id and Password in ```application.properties``` of ***mailService***
 ![image](https://user-images.githubusercontent.com/42665547/148780801-b75b0fcb-5750-4d9f-b559-12c9c7e64361.png)
 
+### Order of running the project
+***__Backend__***
+1. `eureka-server`
+2. `mailService`
+3. `auth`
+4. `event-kt`
+
+***__Frontend__***
+1. vfront ---> `npm start`
 
 
 
