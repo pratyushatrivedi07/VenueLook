@@ -1,0 +1,113 @@
+
+.navbar{
+    background-color: black;
+    height: 65px;
+  }
+
+.logo{
+      width: 200px;
+      height: 65px;
+  }
+  
+.nav_link{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+  .nav_link:hover {
+    border-radius: 5px;
+    color: white;
+    background-color:crimson;
+  }
+  
+.nav_login{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .nav_login:hover{
+    border-radius: 5px;
+    color: black;
+    background-color:yellow;
+  }
+
+.nav_hi{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  :root {
+    --mainColor: #00eeff;
+  }
+
+.nav_logout{
+  background:
+     linear-gradient(
+       to bottom,
+       var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: white;
+    text-decoration: none;
+    transition: background-size .2s;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+}
+  
+  .nav_logout:hover{
+    color: black;
+    background-size: 4px 70px;
+}
+
+.nav_heart{
+  font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(218, 1, 1);
+    
+}
+
+.nav_heart:hover{
+  color: rgb(218, 1, 1);
+}
+
+

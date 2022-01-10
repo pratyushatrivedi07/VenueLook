@@ -1,0 +1,234 @@
+.ImgR {
+    width: 100vw;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    filter: brightness(70%);
+  }
+
+  .text-box4 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .text-box4 .title1 {
+      color: snow;
+      font-weight: 900;
+      font-size: 60px;
+      font-family: New Century Schoolbook, 'TeX Gyre Schola', serif;
+    }
+    
+.banner-login{
+    background-color: rgba(0, 0, 255, 0.781);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.jumbotron{
+  height: 100vh;
+  background-color:whitesmoke;
+}
+
+.signIn{
+  color: #FF353B;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.signIn:hover{
+  color: #c43237;
+}
+
+h2, h5, h4{
+  font-family: Lato, 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h2{
+  color: rgb(180, 7, 180);
+  font-weight: 600;
+}
+
+h5{
+  color: #494949;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+h4{
+  margin: 10px;
+  color: rgb(71, 69, 69);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fill-form{
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.image{
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.md-foot{
+  margin-top: 20px;
+  text-align: center;
+  color: #494949;
+  font-size: 15px;
+}
+
+.btn2{
+  text-align: center;
+  text-decoration: none;
+  background: #f7364f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: medium;
+}
+
+.btn2:hover {
+  background-color: #FF353B;
+  color: white;
+}
+
+.modal-body{
+  background-color: whitesmoke;
+}
+
+.register-photo {
+  background: #f1f7fc;
+  padding: 20px 0
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url('../img/dg.jpg');
+  background-size: cover
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 52%;
+  height: 500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+      padding: 40px
+  }
+}
+
+.register-photo form h2 {
+  margin-left: 10px;
+  margin-top: 25%;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.register-photo form .form-control {
+  position: relative;
+  width: 110%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none
+}
+
+.register-photo form input[type="submit"]{
+  max-width: 100px;
+  background: #f7364f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.register-photo form input[type="submit"]:hover {
+  background-color: #FF353B;
+  color: white;
+}
+
+.btnrg {
+  text-transform: uppercase;
+  border: none;
+  max-width: 100px;
+  background: #f7364f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+  .btnrg:hover {
+      background-color:#FF353B;
+      color: white;
+  }
+
+
+

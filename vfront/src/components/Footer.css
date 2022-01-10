@@ -1,0 +1,31 @@
+.first{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.second{
+    text-align: center;
+    color: crimson;
+    font-weight: 600;
+}
+
+.feedbtn{
+    background-color: transparent;
+    margin-top: 15px;
+    padding: 7px 35px;
+    font-size: medium;
+    border-color: crimson;
+    border-radius: 5px;
+    font-weight: 600;
+    color: crimson;
+    margin-left: 0;
+}
+
+.feedbtn:hover{
+    border: none;
+    color: white;
+    padding: 9px 37px;
+    background-color: crimson;
+
+}

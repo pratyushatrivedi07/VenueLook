@@ -1,0 +1,132 @@
+.Img {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+  }
+
+  .text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btnlg {
+  text-transform: uppercase;
+    border: none;
+    max-width: 100px;
+    background: #f7364f;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+    .btnlg:hover {
+        background-color:#FF353B;
+        color: white;
+    }
+  
+  .register-photolg .image-holderlg {
+    display: table-cell;
+    width: auto;
+    background: url('../img/ck.jpeg');
+    background-size: cover
+  }
+  
+  .register-photolg .form {
+    display: table;
+    max-width: 900px;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+  }
+  
+  .register-photolg form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+  }
+  
+  @media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+  }
+  
+  .register-photolg form h2 {
+    margin-left: 5px;
+    margin-top: 25%;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .register-photolg form .form-control {
+    position: relative;
+    width: 110%;
+    padding: 10px;
+    background: #f5f5f5;
+    color: #333;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+  
+  .register-photolg form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+  }
+  
+  .register-photolg form input[type="submit"]{
+    border: none;
+    max-width: 100px;
+    background: #f7364f;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 12px;
+  }
+  
+  .register-photolg form input[type="submit"]:hover {
+    background-color: #FF353B;
+    color: white;
+  }
+  
+  

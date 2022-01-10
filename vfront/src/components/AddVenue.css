@@ -1,0 +1,63 @@
+
+.card{
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.493);
+}
+
+h3{
+    font-family: Lato, 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.column {
+    margin: auto;
+    width: 40%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  label{
+    float: left;
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.bn{
+    float: left;
+    border-radius: 5px;
+    color: black;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+.bn:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+/* .img{
+    border: none;
+    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+  } */
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn-success{
+    padding: 7px 20px;
+}

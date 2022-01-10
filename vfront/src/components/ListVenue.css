@@ -1,0 +1,280 @@
+/* .body{
+    text-align: center;
+    background-image: url('../img/back.jpg');
+    width: 100vw;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.text-box3 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+    .text-box3 .title1 {
+      font-family: Georgia, serif;
+      font-weight: 100;
+        font-size: 50px;
+    }   
+
+    .text-box3 .searchBar{
+      outline: none;
+        border: none;
+        border-radius: 3px;
+        width: 30%;
+        height: 45px;
+        align-items: center;  
+    }
+
+    input[type="search"]{
+      padding-left: 15px;
+    }
+    
+    .iconSearch{
+        color: black;
+    }
+
+    .searchBtn{
+        border: none;
+        background-color: orange;
+        height: 45px;
+        width: 45px;
+    }
+
+    .searchBtn:hover{
+        background-color: rgb(255, 102, 0);
+    }
+
+.subtitle{
+  font-family: 'Cormorant Garamond', serif;
+  /* font-family: Palatino, "Palatino Linotype", "Palatino LT STD"; */
+    color: rgb(82, 78, 78);
+    font-weight: 900;
+    font-size: 19px;
+}
+
+.card{
+    text-align: center;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+    background-color: rgba(225,225,225,0.4);
+    backdrop-filter: blur(0.6rem);
+    border: 1px solid transparent;
+    box-shadow: 1.3rem 1.4rem 1.3rem rgba(0, 0, 0, 0.555);
+    border-top-color: rgba(225,225,225,0.5);
+    border-left-color: rgba(225,225,225,0.5);
+    border-bottom-color: rgba(225,225,225,0.1);
+    border-right-color: rgba(225,225,225,0.1);
+    position: relative;
+
+}
+
+.heading{
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.desc{
+  font-family: 'Cormorant', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.vegIcon{
+    color: rgb(13, 134, 13);  
+}
+
+.nvegIcon{
+    color: rgb(160, 17, 17);
+}
+
+.price, .guest{
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.visit, .enquire, .phone{
+    text-align: center;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title{
+    font-family: cursive, 'Bradley Hand', cursive;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.Sendbtn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: medium;
+    margin-left: 38%;
+}
+
+.banner{
+    background-color: #d80666;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+.home-title{
+    font-family: Lato,'Open Sans',sans-serif;
+    letter-spacing: .01rem;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color:rgb(85, 84, 84);
+  }
+
+.mainImg {
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+  }
+
+.bn5 {
+    padding: 0.8em 2em;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  .bn11 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 0 0.1em 0.1em 0;
+    background-color: rgb(2, 187, 171);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .bn11:hover {
+    background-color:  rgb(10, 153, 141) ;
+    color: white;
+  }
+
+  .bn12 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 0 0.1em 0.1em 0;
+    background-color: rgb(228, 15, 15);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.bn12:hover {
+    background-color: rgb(190, 16, 16);
+    color: white;
+}
+
