@@ -26,6 +26,7 @@ users can reach out to the venue owners by call or by sending them an enquiry me
 ![image](https://user-images.githubusercontent.com/42665547/148779398-e0de22e6-cc0c-4cd3-b02f-c705dcb1d71d.png)
 
 ### Changes to be made before running the project
+![image](https://user-images.githubusercontent.com/42665547/148779741-0f747d0b-2715-48eb-8bdc-f171b6ff4b20.png)
 
 
 
