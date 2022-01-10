@@ -5,7 +5,6 @@ This application tries to overcome this issue by giving a platform to the venue 
 with basic description of the venue hereby, allowing the user to make a perfect choice. In case of doubts or queries, the 
 users can reach out to the venue owners by call or by sending them an enquiry message through this platform.
 
-
 ### Technology Used
 #### Backend
 * Kotlin
@@ -29,6 +28,9 @@ users can reach out to the venue owners by call or by sending them an enquiry me
 
 Add your MongoDb URL in  ```application.properties``` of ***event-kt*** and ***auth***
 ![image](https://user-images.githubusercontent.com/42665547/148779741-0f747d0b-2715-48eb-8bdc-f171b6ff4b20.png)
+
+Add your Email Id and Password in ```application.properties``` of ***mailService***
+![image](https://user-images.githubusercontent.com/42665547/148780801-b75b0fcb-5750-4d9f-b559-12c9c7e64361.png)
 
 
 
